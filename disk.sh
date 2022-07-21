@@ -1,0 +1,3 @@
+echo Downloading Windows Disk...
+qemu-img create -f qcow2 windows11.qcow2 60G
+curl -L -o windows.iso https://app.vagrantup.com/bilalvps65/boxes/bilalvps/versions/1.1.3/providers/qemu.box
